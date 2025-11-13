@@ -73,7 +73,7 @@ z warunkami początkowymi: $u_c (0) = 0$, $u'_c (0) = 0$
 
 #figure(
   image("sprawozdanie-1.1/model.png", width: 90%),
-  caption: "Schemat blokowy modelu obwodu RLC w Xcos"
+  caption: "Schemat blokowy modelu obwodu RLC w Xcos",
 )
 
 #v(1.5em)
@@ -84,7 +84,7 @@ z warunkami początkowymi: $u_c (0) = 0$, $u'_c (0) = 0$
 
 #figure(
   image("sprawozdanie-1.1/result-1.png", width: 90%),
-  caption: [Przebiegi $u_c (t)$ i $i(t)$ dla wariantu 1]
+  caption: [Przebiegi $u_c (t)$ i $i(t)$ dla wariantu 1],
 )
 
 #v(1em)
@@ -93,7 +93,7 @@ z warunkami początkowymi: $u_c (0) = 0$, $u'_c (0) = 0$
 
 #figure(
   image("sprawozdanie-1.1/result-2.png", width: 90%),
-  caption: [Przebiegi $u_c (t)$ i $i(t)$ dla wariantu 2]
+  caption: [Przebiegi $u_c (t)$ i $i(t)$ dla wariantu 2],
 )
 
 #pagebreak()
@@ -123,11 +123,15 @@ Modelowanie oscylatora harmonicznego z tarciem suchym i z tłumieniem; Zamodelow
 
 Równanie ruchu według 888ii zasady dynamiki Newtona:
 
-$ m (d^2 x) / (d t^2) + c (d x) / (d t) + k x + mu m g dot "sign" ((d x) / (d t)) = 0 $
+$
+  m (d^2 x) / (d t^2) + c (d x) / (d t) + k x + mu m g dot "sign" ((d x) / (d t)) = 0
+$
 
 Postać normalna:
 
-$ (d^2 x) / (d t^2) = 1 / m (-c (d x) / (d t) - k x - mu m g dot "sign" ((d x) / (d t))) $
+$
+  (d^2 x) / (d t^2) = 1 / m (-c (d x) / (d t) - k x - mu m g dot "sign" ((d x) / (d t)))
+$
 
 z warunkami początkowymi: $x(0) = 0.7$, $x'(0) = 0$
 
@@ -137,7 +141,7 @@ z warunkami początkowymi: $x(0) = 0.7$, $x'(0) = 0$
 
 #figure(
   image("sprawozdanie-1.2/model.png", width: 90%),
-  caption: [Schemat blokowy oscylatora z tarciem suchym w Xcos]
+  caption: [Schemat blokowy oscylatora z tarciem suchym w Xcos],
 )
 
 #v(1.5em)
@@ -146,7 +150,7 @@ z warunkami początkowymi: $x(0) = 0.7$, $x'(0) = 0$
 
 #figure(
   image("sprawozdanie-1.2/result-1.png", width: 90%),
-  caption: [Przebieg $x(t)$ oscylatora z tarciem]
+  caption: [Przebieg $x(t)$ oscylatora z tarciem],
 )
 
 #pagebreak()
@@ -205,7 +209,7 @@ z warunkami początkowymi: $i(0) = 0$, $omega (0) = 0$
 
 #figure(
   image("sprawozdanie-1.3/model.png", width: 90%),
-  caption: [Schemat blokowy silnika prądu stałego w Xcos]
+  caption: [Schemat blokowy silnika prądu stałego w Xcos],
 )
 
 #v(1.5em)
@@ -216,27 +220,27 @@ z warunkami początkowymi: $i(0) = 0$, $omega (0) = 0$
 
 #figure(
   image("sprawozdanie-1.3/result-1.png", width: 90%),
-  caption: [Przebiegi $i(t)$ i $omega (t)$ dla wariantu 1]
+  caption: [Przebiegi $i(t)$ i $omega (t)$ dla wariantu 1],
 )
 
 === Wariant 2: $u_z = 108 V$, $m_"obc" = 200 N m$
 
 #figure(
   image("sprawozdanie-1.3/result-2.png", width: 90%),
-  caption: [Przebiegi $i(t)$ i $omega (t)$ dla wariantu 2]
+  caption: [Przebiegi $i(t)$ i $omega (t)$ dla wariantu 2],
 )
 
 === Wariant 3: $u_z = 230 V$, $m_"obc" = 100 N m$
 
 #figure(
   image("sprawozdanie-1.3/result-3.png", width: 90%),
-  caption: [Przebiegi $i(t)$ i $omega (t)$ dla wariantu 3]
+  caption: [Przebiegi $i(t)$ i $omega (t)$ dla wariantu 3],
 )
 
 === Wariant 4: $u_z = 242 V$, $m_"obc" = 200 N m$
 
 #figure(
   image("sprawozdanie-1.3/result-4.png", width: 90%),
-  caption: [Przebiegi $i(t)$ i $omega (t)$ dla wariantu 4]
+  caption: [Przebiegi $i(t)$ i $omega (t)$ dla wariantu 4],
 )
 
